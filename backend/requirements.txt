@@ -6,3 +6,11 @@ Flask-Migrate
 numpy
 pandas
 requests
+socketio-client
+
+PyJWT
+pytest 
+pytest-flask
+pytest-asyncio
+pytest-cov
+pytest-docker

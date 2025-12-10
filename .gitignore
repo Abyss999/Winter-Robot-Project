@@ -47,9 +47,10 @@ next-env.d.ts
 .env.production.local
 .env.test.local
 
-# System files
-.DS_Store
-
 # -----------------------------------
 
 backend/venv/
+
+# ------ docker ------ 
+pgdata/
+postgres_data/
