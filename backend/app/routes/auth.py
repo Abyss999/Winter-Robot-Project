@@ -2,7 +2,6 @@ from app.imports import *
 
 auth_bp = Blueprint('auth', __name__)
 
-
 @auth_bp.post("/register")
 def register_user():
     data = request.get_json() or {}
