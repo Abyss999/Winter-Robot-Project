@@ -1,16 +1,18 @@
 SQLAlchemy
 Flask
 Flask-SQLAlchemy
-psycopg2-binary
+Flask-Cors
+Flask-JWT-Extended
 Flask-Migrate
-numpy
-pandas
+Flask-SocketIO
+psycopg2-binary
 requests
-socketio-client
 
-PyJWT
 pytest 
 pytest-flask
 pytest-asyncio
 pytest-cov
 pytest-docker
+
+numpy
+pandas
