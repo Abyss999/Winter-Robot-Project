@@ -1,3 +1,4 @@
+import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +11,6 @@ export default function Home() {
           alt="Next.js logo"
           width={100}
           height={20}
-          priority
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
@@ -33,6 +33,17 @@ export default function Home() {
             </a>{" "}
             center.
           </p>
+        </div>
+        <div className="flex flex-col items-start gap-2">
+          <h2>I dont want to mess with this page so here is a link to the one im working on IG IDK, IT DOESNT FUCKING WORK BTW</h2>
+          <a
+            href="/newpage.tsx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-blue-600 underline hover:text-blue-700"
+          >
+            Here it is hehehe hargh
+          </a>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
