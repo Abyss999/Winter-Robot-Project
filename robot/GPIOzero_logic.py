@@ -50,4 +50,5 @@ def main(window):
                 next_key = window.getch()
             robot.stop()
     
-curses.wrapper(main)
+if __name__ == "__main__":
+    curses.wrapper(main)

@@ -1,6 +1,5 @@
 import cv2 as cv
 
-
 cam = cv.VideoCapture(0)
 
 while True:
@@ -8,3 +7,6 @@ while True:
     cv.imshow('Camera Feed', frame)
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
+
+cam.release()
+cv.destroyAllWindows()
