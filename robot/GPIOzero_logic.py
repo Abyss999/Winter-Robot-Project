@@ -12,6 +12,7 @@ def test_motors():
     sleep(2)
     robot.stop()  
 
+#Uses arrow keys to control the robot
 """actions = {
     curses.KEY_UP: robot.forward,
     curses.KEY_DOWN: robot.backward,
@@ -49,4 +50,5 @@ def main(window):
                 next_key = window.getch()
             robot.stop()
     
-curses.wrapper(main)
+if __name__ == "__main__":
+    curses.wrapper(main)
