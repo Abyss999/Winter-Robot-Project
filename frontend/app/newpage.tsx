@@ -8,9 +8,16 @@ export default function NewPage() {
         <div className="max-w-2xl p-8 space-y-4">
             <h1 className="text-3xl font-semibold">Winter Robot Project Type shiii</h1>
         </div>
+
+        // This is the camera
         <div>
+        // Camera
+        </div>
+
+        <div className="items-center">
             <h2>Controls</h2>    
-            <p>Controls:
+            <p>
+                Controls:
                 W - Move forward
                 A - Move left
                 S - Move backward

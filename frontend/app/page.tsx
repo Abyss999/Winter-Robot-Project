@@ -35,7 +35,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col items-start gap-2">
-          <h2>I dont want to mess with this page so here is a link to the one im working on IG IDK, IT DOESNT FUCKING WORK BTW</h2>
+          <h2>I dont want to mess with this page so here is a link to the one im working on ig idk, WHICH DOESNT FUCKING WORK BTW</h2>
           <a
             href="/newpage.tsx"
             target="_blank"
