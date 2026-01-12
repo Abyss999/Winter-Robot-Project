@@ -1,5 +1,5 @@
 from app.imports import *
-import datetime
+from datetime import datetime
 
 
 class Robot(db.Model):

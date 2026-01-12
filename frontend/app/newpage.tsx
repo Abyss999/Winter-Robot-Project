@@ -1,7 +1,7 @@
 import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 import Image from "next/image";
 
-export default function NewPage() {
+export default function newpage() {
   return (
     <div>
         <main className="min-h-screen bg-white text-black dark:bg-black dark:text-white flex items-center justify-center">

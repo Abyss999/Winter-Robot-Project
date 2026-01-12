@@ -1,13 +1,15 @@
-from app.imports import * 
+from app.imports import *
+from datetime import datetime
+import enum
 
 class User_Roles(enum.Enum):
     ADMIN = "admin"
     USER = "user"
 
-class User(db.model):
+class User(db.Model):
     __tablename__ = 'users'
 
-    user_id = db.Coluimn(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(120), unique=True, nullable=False)
     username = db.Column(db.String(50), unique=True, nullable=False)
     password_hash = db.Column(db.String(128), nullable=False)

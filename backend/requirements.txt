@@ -8,6 +8,7 @@ Flask-SocketIO
 SQLAlchemy
 psycopg2-binary
 requests
+python-dotenv
 
 pytest 
 pytest-flask

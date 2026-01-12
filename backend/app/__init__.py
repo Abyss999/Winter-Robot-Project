@@ -3,7 +3,7 @@ from app.imports import *
 db = SQLAlchemy()
 jwt = JWTManager()
 
-def create_app(config_class = 'config.DevelopmentConfig'):
+def create_app(config_class = 'app.config.DevConfig'):
     app = Flask(__name__)
     app.config.from_object(config_class) # load config from config.py
     CORS( # enables cors (browser security)
